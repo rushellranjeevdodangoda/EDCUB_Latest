@@ -4,13 +4,14 @@ import { StyleSheet, View } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import Login from './App/Screens/LoginScreen/Login';
 import Login2 from './App/Screens/LoginScreen/Login2';
+import Avatar from './App/Screens/LoginScreen/Avatar';
 
 
 export default function App() {
   return (
     <SafeAreaProvider> 
     <View style={appStyles.container}>
-      <Login2/>
+      <Avatar/>
       <StatusBar style="auto" />
     </View>
     </SafeAreaProvider>
