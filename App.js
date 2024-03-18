@@ -20,10 +20,10 @@ export default function App() {
 const appStyles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f0f0f0', // Changed background color
-    alignItems: 'flex-start', // Align items to flex-start
+    backgroundColor: '#ffffff', // Changed background color
+    alignItems: 'center',
     justifyContent: 'center',
-    paddingLeft: 20, // Optional: Add padding to the left side
-    paddingTop: 50, // Optional: Add padding to the top
+     // Add horizontal padding to the container
+    paddingTop:50,// Add padding to the top if necessary
   },
 });
