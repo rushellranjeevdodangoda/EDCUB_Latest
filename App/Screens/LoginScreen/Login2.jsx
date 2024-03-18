@@ -39,7 +39,11 @@ export default function Login() {
         placeholder="Enter your password"
         secureTextEntry={true}
       />
-
+      
+      {/* Forgot Password text */}
+      <TouchableOpacity onPress={() => console.log('Forgot Password pressed')} style={styles.forgotPassword}>
+        <Text style={styles.forgotPasswordText}>Forgot Password?</Text>
+      </TouchableOpacity>
 
       {/* Next Button */}
       <TouchableOpacity style={styles.nextButton}>
@@ -171,5 +175,14 @@ const styles = StyleSheet.create({
   },
   loginLinkText: {
     fontSize: 16,
+  },
+  forgotPassword: {
+    position: 'absolute',
+    right: 12, // Adjust this value as needed for the desired distance from the right side
+    top: 470, // Adjust this value as needed for the desired distance from the top
+  },
+  forgotPasswordText: {
+    color: '#A3A3A3',
+    fontSize: 14,
   },
 });
